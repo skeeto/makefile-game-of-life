@@ -150,6 +150,7 @@ print_help(FILE *o, const char *progname)
     fprintf(o, "  -c <cellspec>      pair of alive/dead characters (@.)\n");
     fprintf(o, "  -d <delay>         fractional delay between frames (0.1)\n");
     fprintf(o, "  -f <filename>      internal makefile name (life.mak)\n");
+    fprintf(o, "  -h                 print this help information\n");
     fprintf(o, "  -r <rules>         games of life rules (23/3)\n");
     fprintf(o, "  -s <seed>          initialization seed\n");
     fprintf(o, "  -z <width:height>  grid size in characters (50:40)\n");
